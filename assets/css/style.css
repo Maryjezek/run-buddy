@@ -1,5 +1,3 @@
-
-
 /*this part of the code overrides the defult padding that comes with the browser (built in browser style
 --told every element to not have any magin or border unless we explicitly tell it to*/
 * {
@@ -11,7 +9,7 @@
 body {
   /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;vgfc-=
 }
 
 header{
@@ -78,6 +76,18 @@ color: #024e76;
   background-position: center;
   position: relative;
 }
+
+.hero-cta {
+  color: #fce138;
+  padding: 20px;
+}
+
+.hero-cta p {
+  color: white;
+
+}
+
+
 
 .hero-form {
   background: #fce138;
